@@ -1,0 +1,79 @@
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f8f8f8;
+  color: #222;
+}
+header {
+  background-color: #111;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+nav a {
+  color: white;
+  margin: 0 1rem;
+  text-decoration: none;
+}
+.hero {
+  text-align: center;
+  padding: 4rem 1rem;
+  background: #333;
+  color: white;
+}
+.btn {
+  display: inline-block;
+  margin-top: 1rem;
+  padding: 0.7rem 1.5rem;
+  background-color: #222;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+}
+.gallery {
+  padding: 2rem;
+}
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+.gallery-grid img {
+  width: 100%;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+.gallery-grid p {
+  text-align: center;
+  margin-top: 0.5rem;
+  font-size: 0.95rem;
+}
+.filter-bar {
+  text-align: center;
+  padding: 1rem;
+}
+.filter-bar button {
+  margin: 0.5rem;
+  padding: 0.5rem 1rem;
+  background-color: #111;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+.filter-bar button:hover {
+  background-color: #444;
+}
+.contact {
+  padding: 2rem;
+  background: #fff;
+  text-align: center;
+}
+footer {
+  text-align: center;
+  padding: 1rem;
+  background-color: #111;
+  color: white;
+  font-size: 0.9rem;
+}
